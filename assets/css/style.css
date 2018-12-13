@@ -11,7 +11,6 @@ body {
 .container {
     max-width: 960px;
     min-width: 750px;
-
     margin: auto;
 }
 
@@ -28,9 +27,9 @@ body {
     color: #fff;
     background-color: #4aaaa5;
     width: 240px;
-    height: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-size: 24px;
     text-align: center;
 }
@@ -86,12 +85,14 @@ nav1 li-1, li-2, li-3, li-4, li-5 {
 }
 
 .contentbox_port {
+    overflow: auto;
     background-color: #fff;
     width: 100%;
     min-height: 400px;
-    height: 1000px;
+    height: max-content;
 
 }
+
 
 .page_title {
     color: #4aaaa5;
@@ -123,7 +124,8 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color:#666666;
-    padding: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .greenfooter {
@@ -186,17 +188,18 @@ input[type=text], select, textarea {
     position: relative;
    
     background-color: #f2f2f2;
-    max-height:  580px;
+    max-height:  500px;
     padding: 10px;
     width: 900px;
     height: max-content;
     margin-left: 15px;
+    margin-bottom: 30px;
   }
 
   .contentbox3 {
     background-color: #fff;
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     height: max-content;
     padding: 50px, 50px, 50px, 50px;
 }
